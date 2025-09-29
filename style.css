@@ -1,5 +1,4 @@
-/* ===== MAIN.CSS ===== */
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -179,7 +178,7 @@ section {
     transition: var(--transition);
 }
 
-/* Hero Section */
+
 .hero {
     padding: 150px 0 100px;
     background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
@@ -220,7 +219,6 @@ section {
     flex-wrap: wrap;
 }
 
-/* Skills Section */
 .skills {
     background: white;
 }
@@ -255,7 +253,6 @@ section {
     color: var(--primary);
 }
 
-/* Projects Section */
 .projects {
     background: #f5f7fa;
 }
@@ -301,7 +298,6 @@ section {
     color: var(--text-light);
 }
 
-/* About Section */
 .about {
     background: white;
 }
@@ -400,7 +396,6 @@ section {
     transition: width 1.5s ease;
 }
 
-/* Blog Section */
 .blog {
     background: #f5f7fa;
 }
@@ -457,7 +452,6 @@ section {
     color: var(--text-light);
 }
 
-/* Contact Section */
 .contact {
     background: white;
 }
@@ -528,7 +522,6 @@ textarea.form-control {
     resize: vertical;
 }
 
-/* Footer */
 .footer {
     background: var(--primary);
     color: white;
@@ -587,7 +580,6 @@ textarea.form-control {
     color: #bdc3c7;
 }
 
-/* ===== RESPONSIVE.CSS ===== */
 @media (max-width: 992px) {
     .about-content, .contact-container {
         grid-template-columns: 1fr;
@@ -677,3 +669,4 @@ textarea.form-control {
         text-align: center;
     }
 }
+
